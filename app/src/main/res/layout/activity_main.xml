@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
     tools:context=".MainActivity">
 
     <Button
@@ -12,6 +13,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="168dp"
         android:text="Button"
+        android:onClick="onSurpriseClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +24,7 @@
         android:layout_width="136dp"
         android:layout_height="60dp"
         android:layout_marginTop="164dp"
-        android:text="Button"
+        android:text="Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
